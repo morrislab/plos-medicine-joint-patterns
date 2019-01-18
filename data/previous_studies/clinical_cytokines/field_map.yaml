@@ -1,0 +1,28 @@
+---
+Labs.ANA_RES:
+  name: ANA
+  type: ana
+Labs.CRP_RES:
+  name: CRP
+  type: number
+Labs.ESR_RES:
+  name: ESR
+  type: number
+Labs.HAEM_RES:
+  name: Hemoglobin
+  type: number
+Joints.NUM_ACTIVE_JOINTS:
+  name: NumActiveJoints
+  type: number
+Joints.NUM_ROM_JOINTS:
+  name: NumLimROMJoints
+  type: number
+Examinations.PGADA:
+  name: PGADA
+  type: number
+Labs.PLATELET_RES:
+  name: Platelets
+  type: number
+IdEnroll.SEX:
+  name: Sex.Female
+  type: sex

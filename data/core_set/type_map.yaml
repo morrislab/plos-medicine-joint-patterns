@@ -1,0 +1,5 @@
+---
+ana: yes_no
+enthesitis: yes_no
+crp: float
+sex_female: sex

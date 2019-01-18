@@ -1,0 +1,14 @@
+---
+NumLimROMJoints: NUM_ROM_JOINTS
+NumActiveJoints: TOTAL_JOINTS
+CHAQScore: CHAQ_correct_score
+JAQQScore: JAQQ_score
+VAS: PAIN_VAS
+PGADA: PGADA
+QoMLConsideringMyHealth: health
+Sex.Female: SEX
+ESR: ESR_RES
+Hemoglobin: HAEM_RES
+Platelets: PLATELET_RES
+ANA: ANA_RES
+CRP: CRP_RES

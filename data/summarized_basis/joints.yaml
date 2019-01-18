@@ -1,0 +1,121 @@
+cervical_spine:
+  both:
+  - cervical_spine
+tmj:
+  left:
+  - tmj_left
+  right:
+  - tmj_right
+sterno:
+  left:
+  - sterno_left
+  right:
+  - sterno_right
+shoulder:
+  left:
+  - shoulder_left
+  right:
+  - shoulder_right
+elbow:
+  left:
+  - elbow_left
+  right:
+  - elbow_right
+wrist:
+  left:
+  - wrist_left
+  right:
+  - wrist_right
+mcp:
+  left:
+  - mcp1_left
+  - mcp2_left
+  - mcp3_left
+  - mcp4_left
+  - mcp5_left
+  right:
+  - mcp1_right
+  - mcp2_right
+  - mcp3_right
+  - mcp4_right
+  - mcp5_right
+pip:
+  left:
+  - pip1_left
+  - pip2_left
+  - pip3_left
+  - pip4_left
+  - pip5_left
+  right:
+  - pip1_right
+  - pip2_right
+  - pip3_right
+  - pip4_right
+  - pip5_right
+dip:
+  left:
+  - dip2_left
+  - dip3_left
+  - dip4_left
+  - dip5_left
+  right:
+  - dip2_right
+  - dip3_right
+  - dip4_right
+  - dip5_right
+sacroiliac:
+  left:
+  - sacroiliac_left
+  right:
+  - sacroiliac_right
+hip:
+  left:
+  - hip_left
+  right:
+  - hip_right
+ankle:
+  left:
+  - ankle_left
+  right:
+  - ankle_right
+knee:
+  left:
+  - knee_left
+  right:
+  - knee_right
+subtalar:
+  left:
+  - subtalar_left
+  right:
+  - subtalar_right
+midfoot:
+  left:
+  - midfoot_left
+  right:
+  - midfoot_right
+mtp:
+  left:
+  - mtp1_left
+  - mtp2_left
+  - mtp3_left
+  - mtp4_left
+  - mtp5_left
+  right:
+  - mtp1_right
+  - mtp2_right
+  - mtp3_right
+  - mtp4_right
+  - mtp5_right
+toe_ip:
+  left:
+  - toe_ip1_left
+  - toe_ip2_left
+  - toe_ip3_left
+  - toe_ip4_left
+  - toe_ip5_left
+  right:
+  - toe_ip1_right
+  - toe_ip2_right
+  - toe_ip3_right
+  - toe_ip4_right
+  - toe_ip5_right

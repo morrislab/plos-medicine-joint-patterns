@@ -1,0 +1,15 @@
+---
+num_lrom_joints: NUM_ROM_JOINTS
+num_active_joints: TOTAL_JOINTS
+chaq: CHAQ_correct_score
+jaqq: JAQQ_score
+vas: PAIN_VAS
+pgada: PGADA
+qoml_health: health
+sex_female: SEX
+esr: ESR_RES
+hemoglobin: HAEM_RES
+platelets: PLATELET_RES
+ana: ANA_RES
+crp: CRP_RES
+enthesitis: ENTHESITIS

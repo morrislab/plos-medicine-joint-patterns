@@ -1,0 +1,114 @@
+sync:
+  username: seng
+  server: rao.ccbr.utoronto.ca
+  remote_path: joint_study
+cohorts:
+- discovery
+- validation
+data:
+  source_dirs:
+    discovery: data/reacch_data_set_july_2013_excel
+    validation: data/validation/bberard
+  visits:
+    discovery: [1, 2, 3, 4, 5, 6, 7, 8]
+    validation: [1, 2, 3, 4, 5, 6, 7, 8]
+co_occurrences:
+  conditional:
+    iterations: 20
+    seed: 834599
+    additional:
+      jobs: 10
+      iterations_per_job: 200
+  z:
+    c: [0.01, 0.1, 1]
+nmf:
+  output_level: l2
+  bicv:
+    k:
+      discovery:
+        l1:
+          each: 1
+          batches: 20
+          folds: 3
+          k_max: 36
+        l2:
+          each: 1
+          batches: 20
+          folds: 3
+          k_max: 10
+      validation:
+        l1:
+          each: 1
+          batches: 20
+          folds: 10
+          k_max: 34
+        l2:
+          each: 1
+          batches: 20
+          folds: 10
+          k_max: 10
+    alpha:
+      discovery:
+        l1:
+          each: 1
+          batches: 20
+          folds: 3
+          alpha_range: [2, 1, 0, 0.5, 0.25, 0.125, 0.0625, 0.03125]
+        l2:
+          each: 1
+          batches: 20
+          folds: 3
+          alpha_range: [2, 1, 0, 0.5, 0.25, 0.125, 0.0625, 0.03125]
+      validation:
+        l1:
+          each: 1
+          batches: 20
+          folds: 10
+          alpha_range: [2, 1, 0, 0.5, 0.25, 0.125, 0.0625, 0.03125]
+        l2:
+          each: 1
+          batches: 20
+          folds: 10
+          alpha_range: [2, 1, 0, 0.5, 0.25, 0.125, 0.0625, 0.03125]
+combined_bases:
+  levels: [l1, l2]
+representative_sites:
+  levels: [l1, l2]
+clusters:
+  levels: [l1, l2]
+site_heatmap:
+  levels: [l1, l2]
+circos:
+  level: l2
+localizations:
+  levels: [l2]
+  thresholds: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+  bootstrap:
+    iterations: 1
+    each: 20
+  stats:
+    iterations: 20
+outcomes:
+  medications:
+    visits: [2, 3]
+    iterations: 10
+  time_to_zero:
+    max_visit: 8
+cluster_trajectories:
+  discovery:
+    max_visit: 8
+    permutation_test:
+      batches: 20
+      permutations_per_batch: 1
+      seed: 83653520
+  validation:
+    max_visit: 8
+    permutation_test:
+      batches: 20
+      permutations_per_batch: 1
+      seed: 83653520
+validation_projections:
+  bootstrapped_comparisons:
+    splits: 20
+    each: 1
+viridis_palette: B

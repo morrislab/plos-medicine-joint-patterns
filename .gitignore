@@ -1,0 +1,13 @@
+.fseventsd/
+.snakemake/
+.Trashes/
+data/reacch_data_set_july_2013_excel/
+data/diagnoses_validation/
+data/diagnosis_validation/
+data/validation/
+figures/
+inputs/
+outputs/
+parameters/
+tables/
+Rplots.pdf

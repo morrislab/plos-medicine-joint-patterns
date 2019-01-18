@@ -1,0 +1,17 @@
+cervical_spine
+tmj
+sterno
+shoulder
+elbow
+wrist
+mcp
+pip
+dip
+sacroiliac
+hip
+knee
+ankle
+subtalar
+midfoot
+mtp
+toe_ip
